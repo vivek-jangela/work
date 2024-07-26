@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#home{
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(205, 172, 128);
+
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#right{
+    width: 80px;
+    height: 80vh;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+#text{
+    width: 0%;
+    height: 70%;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+#text h1{
+    width: 5vw;
+    top: 50vh;
+    display: flex;
+    transform: rotate(90deg);
+transform: translateY(-40px) rotate(90deg);
+}
+
+#pop{
+    position: absolute;
+    top: 30%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 120px;
+    z-index: 99;
+}
+#pop h1{
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 160px;
+
+}
+#pop h1 span{
+    opacity: 0;
+    z-index: 100;
+}
+
+#min{
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    transform: translate(-50%, -50%);
+    background-color:  rgb(239, 221, 197);
+    height: 55vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+}
+#overlay{
+    display: flex;
+    margin-left: 25px;
+    width: 48vw;
+    margin-top: 5px;
+    height: 49vh;
+}
+#t{
+    position: absolute;
+    bottom: 10vw;
+    left: 240px;
+    width: 100px;
+    height: 12vh;
+    background-color: black;
+}
+#t img{
+    width: 100%;
+    height: 100%;
+}
+#t2{
+    position: absolute;
+    top: 2vw;
+    right: 190px;
+    width: 100px;
+    height: 12vh;
+    background-color: black;
+}
+#t2 img{
+    width: 100%;
+    height: 100%;
+}
+#r{
+    width: 16vw;
+    height: 100%;
+    position: relative;
+
+}
+#r #top{
+    position: absolute;
+    margin-top: 6px;
+    left: 6px;
+    width: 100%;
+    height: 8vh;
+}
+#top h1{
+    font-size: 19px;
+}
+#r #mid{
+    width: 8vw;
+    height: 0.5vh;
+    position: absolute;
+    background-color: black;
+    top: 280px;
+    left: 0;
+
+
+}
+#r #btm{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6vh;
+}
+#btm h1{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+#M{
+    width: 16vw;
+    height: 100%;
+}
+#mot{
+    z-index: 999;
+    margin-top: 22px;
+    width: 16vw;
+    height: 41.5vh;
+    overflow: hidden;
+}
+#mot img{
+    width: 87vw;
+    background-position: center;
+    margin-left: -49px;
+    zoom: 20%;
+    background-size: cover;
+    border-radius: 190vw;
+}
+#l{
+    width: 16vw;
+    height: 100%;
+
+}
+#tp{
+    position: relative;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 90%;
+    margin-top: 10px;
+    margin-left: 70px;
+    border: 1px solid #000;
+
+}
+#tp h1{
+    font-size: 22px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#bt{
+    display: flex;
+    align-items: center;
+    margin-left: 42.5px ;
+    width: 13vw;
+    height: 12vh;
+    margin-top: 205px;
+}
+#bt h1{
+    text-align: center;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+
+}
+#bt h1 span{
+    font-size: 19px;
+}
+#w{
+    position: absolute;
+    width: 5.21vw;
+    height: 100%;
+    right: 0;
+}
+#q{
+    position: relative;
+    top: 30px;
+    left: 40%;
+    width: 2vw;
+    height: 30vh;
+}
+#qa{
+    letter-spacing: 1px;
+    position: absolute;
+    top: 40%;
+    left: -3.5vw;
+    transform: translate(-50%, -50%);
+    width: 8.5vw;
+    gap: 2px;
+    height: 2vw;
+    transform: rotate(90deg);
+transform: translateY(-40px) rotate(90deg);
+   
+}
+#qs{
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    background-color: black;
+    width: 4vw;
+    height: 0.15vw;
+    transform: rotate(90deg);
+    transform: translateY(29px) rotate(90deg);
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(205, 172, 128);
+}
+#z{
+    background-color: #fff;
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    gap: 1.3px;
+}
+#zr{
+    position: relative;
+    background-color: rgb(205, 172, 128);
+    text-align: center;
+    width: 15%;
+    height: 100%;
+}
+#zr h1{
+    letter-spacing: 0.5px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-size: 25px;
+    color: #e7dede;
+    opacity: 0.9;
+}
+
+#zl{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-color: rgb(205, 172, 128);
+}
+#zl h1{
+    position: absolute;
+    top: 60%;
+    left: 40px;
+    font-size: 25px;
+    opacity: 0.9;
+    color: #e7dede;
+    letter-spacing: 2px;
+}
+#mk{
+    position: relative;
+    width: 20%;
+    height: 120%;
+    border: 2px solid #fff;
+    background-color: rgb(205, 172, 128);
+    text-align: center;
+    color: #e7dede;
+}
+#mk h3{
+    font-size: 20px;
+    opacity: 0.2px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#mk h3 span{
+    letter-spacing: 2px;
+    opacity: .9px;
+    font-size: 50px;
+
+}
+#mk h3>t{
+    font-size: 20px;
+
+}
+#km{
+    z-index: 9;
+    position: absolute;
+    top: 18.2%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+}
+#km img{
+    border-radius: 50%;
+    zoom: 70%;
+    width: 100%;
+    height: 100%;
+}
+#a{
+    
+    top: 20%;
+    position: relative;
+    width: 80%;
+    height: 1.3px;
+    background-color: #fff;
+}
+#photo{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 350px;
+    height: 350px;
+}
+#photo img{
+    width: 100%;
+}
+#page3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(205, 172, 128);
+}
+#ml{
+    overflow: hidden;
+    position: absolute;
+    right: 120px;
+    top: -30%;
+    width: 410px;
+    height: 650px;
+}
+#ml img{
+    position: absolute;
+    left: -18%;
+    border-radius: 46%;
+    width: 135%;
+
+}
+#tw{
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 64.3%;
+    height: 43vh;
+    color: #fff;
+    text-align: center;
+}
+#tw h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.7;
+    width: 70%;
+    font-weight: 600;
+    font-size: 33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#photo2{
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    width: 25%;
+    height: 40vh;
+    background-color: #000;
+    overflow: hidden;
+
+}
+#photo2 img{
+    margin-top: -120px;
+    width: 100%;
+}
+#cap{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 75%;
+    height: 14vh;
+
+}
+#tip{
+    position: absolute;
+    right: 110px;
+    width: 45vw;
+    height: 7vh;
+    display: flex;
+}
+#ht{
+    align-items: center;
+    gap: 15px;
+    padding: 20px 10px;
+    display: flex;
+    width: 12vw;
+    color: #fff;
+}
+#hp{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#hpp h1{
+    font-size: 35px;
+    color: #fff;
+}
+#htt{
+    align-items: center;
+    padding: 20px 10px;
+    gap: 15px;
+    display: flex;
+    width: 12vw;
+    color: #fff;
+}
+#hy{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#hyy h1{
+    font-size: 35px;
+    background-color: #fff;
+}
+#lol{
+    background-color: #fff;
+    width: 100%;
+    height: 1.3px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+}
+#photo3{
+    width: 120px;
+    height: 14vh;
+    position: absolute;
+    right: 76px;
+    z-index: 999;
+    bottom: 36%;
+}
+#photo3 img{
+    border-radius: 70%;
+    width: 100%;
+    height: 100%;
+}
+#crop{
+    top: -20%;
+    z-index: 99;
+    width: 230px;
+    height: 22vh;
+    position: absolute;
+    right: 30%;
+    overflow: hidden;
+}
+#crop img{
+    top: -90%;
+    height: 100%;
+    width: 100%;
+}
+#crop h3{
+    font-family:cursive;
+    text-align: center;
+    color: #554242;
+    font-size: 3.5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
